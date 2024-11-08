@@ -18,4 +18,7 @@ panic-halt = "1.0.0"
 stm32f1xx-hal = { version = "0.10.0", features = ["stm32f103", "medium"] }
 
 [[example]]
-name = "3-1-led"
+name = "3-1-led" # LED 闪烁
+
+[[example]]
+name = "3-2-led-running" # LED 流水灯
