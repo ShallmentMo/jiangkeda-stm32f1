@@ -12,6 +12,8 @@ brew install arm-none-eabi-gdb
 brew install minicom openocd
 cargo install cargo-binutils
 rustup component add llvm-tools
+rustup target install thumbv7m-none-eabi
+cargo binstall probe-rs-tools
 ```
 
 Install tools from [Rust Code Template Recommendation](https://github.com/tyr-rust-bootcamp/template)
@@ -20,22 +22,11 @@ Install tools from [Rust Code Template Recommendation](https://github.com/tyr-ru
 
 ### 连接 ST-Link 和开发板
 
-
-
 ### 编译并加载到开发板
 
 ```bash
-openocd -f interface/stlink.cfg -f target/stm32f1x.cfg
-openocd -f interface/stlink-v3.cfg -f target/stm32f1x.cfg
+cargo run --example 3-1-led
 ```
-
-另外增加 openocd 的配置文件 `openocd.gdb`, 在 `.cargo/config.toml` 中指定 runner 为 `arm-none-eabi-gdb -q -x ./openocd.gdb`
-
-## 疑难杂症
-
-### openocd 报 target stm32f1x.cpu examination failed
-
-在 openocd 建立连接的时候一直按着 reset 按钮可解决此问题
 
 ## 参考
 
