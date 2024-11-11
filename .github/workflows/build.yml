@@ -31,7 +31,7 @@ jobs:
       - name: install nextest
         uses: taiki-e/install-action@nextest
       - name: Install target
-        run: rustup target add thumbv7em-none-eabi
+        run: rustup target add thumbv7m-none-eabi
       - uses: Swatinem/rust-cache@v2
       - name: Check code format
         run: cargo fmt -- --check
