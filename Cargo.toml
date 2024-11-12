@@ -27,4 +27,7 @@ name = "3-2-led-running" # LED 流水灯
 name = "3-3-buzzer" # 蜂鸣器
 
 [[example]]
+name = "3-4-button-led" # 按键控制 LED
+
+[[example]]
 name = "3-5-buzzer-with-light-sensor" # 光敏电阻控制蜂鸣器
