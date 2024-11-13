@@ -14,6 +14,7 @@ cortex-m-rt = "0.7.1"
 # cortex-m-semihosting = "0.5.0"
 # Panic behaviour, see https://crates.io/keywords/panic-impl for alternatives
 panic-halt = "1.0.0"
+rtt-target = "0.5.0"
 ssd1306 = "0.9.0"
 # panic-semihosting = "0.6.0"
 stm32f1xx-hal = { git = "https://github.com/stm32-rs/stm32f1xx-hal", features = ["stm32f103", "medium"] }
@@ -35,3 +36,6 @@ name = "3-5-buzzer-with-light-sensor" # 光敏电阻控制蜂鸣器
 
 [[example]]
 name = "4-1-oled-display" # OLED 显示
+
+[[example]]
+name = "5-1-counter-with-ir-sensor" # 对射式红外传感器计次
