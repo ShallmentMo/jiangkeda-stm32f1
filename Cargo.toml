@@ -39,3 +39,6 @@ name = "4-1-oled-display" # OLED 显示
 
 [[example]]
 name = "5-1-counter-with-ir-sensor" # 对射式红外传感器计次
+
+[[example]]
+name = "5-2-counter-with-rotary-encoder" # 旋转编码器计次
