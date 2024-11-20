@@ -42,3 +42,6 @@ name = "5-1-counter-with-ir-sensor" # 对射式红外传感器计次
 
 [[example]]
 name = "5-2-counter-with-rotary-encoder" # 旋转编码器计次
+
+[[example]]
+name = "6-1-timer-interrupt" # 定时器定时中断
