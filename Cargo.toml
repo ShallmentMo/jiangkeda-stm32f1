@@ -54,3 +54,6 @@ name = "6-3-pwm-led-breathing" # PWM驱动LED呼吸灯
 
 [[example]]
 name = "6-4-pwm-servo" # PWM驱动舵机
+
+[[example]]
+name = "6-5-pwm-dc-motor" # PWM驱动直流电机
