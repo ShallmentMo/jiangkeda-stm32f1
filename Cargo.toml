@@ -45,3 +45,6 @@ name = "5-2-counter-with-rotary-encoder" # 旋转编码器计次
 
 [[example]]
 name = "6-1-timer-interrupt" # 定时器定时中断
+
+[[example]]
+name = "6-2-timer-external-clock" # 定时器外部时钟, 未实现
