@@ -51,3 +51,6 @@ name = "6-2-timer-external-clock" # 定时器外部时钟, 未实现
 
 [[example]]
 name = "6-3-pwm-led-breathing" # PWM驱动LED呼吸灯
+
+[[example]]
+name = "6-4-pwm-servo" # PWM驱动舵机
