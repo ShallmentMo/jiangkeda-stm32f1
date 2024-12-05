@@ -57,3 +57,12 @@ name = "6-4-pwm-servo" # PWM驱动舵机
 
 [[example]]
 name = "6-5-pwm-dc-motor" # PWM驱动直流电机
+
+[[example]]
+name = "6-6-input-capture-measure-frequency" # 输入捕获模式测频率, 未实现
+
+[[example]]
+name = "6-7-pwm-measure-frequency-and-duty-cycle" # PWM模式测频率占空比, 未实现
+
+[[example]]
+name = "6-8-encoder-interface-measure-speed" # 编码器接口测速, 未实现
