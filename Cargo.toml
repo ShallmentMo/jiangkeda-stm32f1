@@ -66,3 +66,6 @@ name = "6-7-pwm-measure-frequency-and-duty-cycle" # PWM模式测频率占空比,
 
 [[example]]
 name = "6-8-encoder-interface-measure-speed" # 编码器接口测速, 读入会卡死
+
+[[example]]
+name = "7-1-adc-single-channel" # AD单通道
