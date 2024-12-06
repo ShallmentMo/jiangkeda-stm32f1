@@ -69,3 +69,6 @@ name = "6-8-encoder-interface-measure-speed" # 编码器接口测速, 读入会�
 
 [[example]]
 name = "7-1-adc-single-channel" # AD单通道
+
+[[example]]
+name = "7-2-adc-multi-channel" # AD多通道
