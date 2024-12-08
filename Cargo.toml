@@ -72,3 +72,9 @@ name = "7-1-adc-single-channel" # AD单通道
 
 [[example]]
 name = "7-2-adc-multi-channel" # AD多通道
+
+[[example]]
+name = "8-1-dma-data-transfer" # DMA数据转运, 数据不能正确传输
+
+[[example]]
+name = "8-2-dma-adc-multi-channel" # DMA+AD多通道, 数据不能循环读取
