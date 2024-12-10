@@ -11,6 +11,7 @@ license = "MIT"
 # nb = "1"
 cortex-m = "0.7.6"
 cortex-m-rt = "0.7.1"
+nb = "1.1.0"
 # cortex-m-semihosting = "0.5.0"
 # Panic behaviour, see https://crates.io/keywords/panic-impl for alternatives
 panic-halt = "1.0.0"
@@ -78,3 +79,6 @@ name = "8-1-dma-data-transfer" # DMA数据转运, 数据不能正确传输
 
 [[example]]
 name = "8-2-dma-adc-multi-channel" # DMA+AD多通道, 数据不能循环读取
+
+[[example]]
+name = "9-1-usart-communication" # 串口通信, 黑苹果不能识别 CH340, 照 HAL 的例程那样 loopback
