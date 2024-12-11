@@ -82,3 +82,6 @@ name = "8-2-dma-adc-multi-channel" # DMA+AD多通道, 数据不能循环读取
 
 [[example]]
 name = "9-1-usart-communication" # 串口通信, 黑苹果不能识别 CH340, 照 HAL 的例程那样 loopback
+
+[[example]]
+name = "9-2-usart-interrupt-rx" # 串口中断接收, 黑苹果不能识别 CH340, 照 HAL 的例程那样 loopback
